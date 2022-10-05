@@ -6,9 +6,318 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/tailwind.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Templete-tw</title>
+    <title>Hoobank</title>
 </head>
-<body>
-   
+<body class="bg-body-bg font-poppins bg-hero-shadow bg-no-repeat bg-auto bg-right-top">
+  
+   <!-- ===== HEADER START ===== -->
+   <header class="site-header py-7">
+     <div class="container">
+        <div class="flex items-center justify-between relative">
+          <a href="./index.html">
+            <img src="./images/logo.svg" alt="Hoobank's logo">
+          </a>
+          <nav class="sitenav max-w-sitenav w-full absolute right-0 top-16 py-7 px-3 opacity-0 pointer-events-none ease-linear duration-200 backdrop-blur-sm sm:static sm:opacity-100 sm:pointer-events-auto sm:p-0">
+            <ul class="text-center sm:flex sm:items-center justify-end">
+              <li class="mb-2 sm:mb-0 sm:mr-6">
+                <a class="text-white opacity-70 hover:opacity-100 ease-linear duration-200" href="#">Home</a>
+              </li>
+              <li class="mb-2 sm:mb-0 sm:mr-6">
+                <a class="text-white opacity-70 hover:opacity-100 ease-linear duration-200" href="#">About Us</a>
+              </li>
+              <li class="mb-2 sm:mb-0 sm:mr-6">
+                <a class="text-white opacity-70 hover:opacity-100 ease-linear duration-200" href="#">Features</a>
+              </li>
+              <li class="">
+                <a class="text-white opacity-70 hover:opacity-100 ease-linear duration-200" href="#">Solution</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="btn-burger bg-burger bg-contain bg-no-repeat bg-center w-6 h-4 ease-linear duration-100 sm:hidden"></button>
+        </div>
+     </div>
+   </header>
+
+   <main class="site-main">
+
+     <!-- ===== HERO START ===== -->
+     <section class="hero bg-hero bg-no-repeat bg-top bg-contain mb-16 pt-80 pb-24 md:mb-32 md:pt-28 md:bg-right">
+       <div class="container">
+             <div class="">
+               <div class="max-w-hero md:mb-28 relative">
+                 <div class="inline-block bg-hero-linear mb-3 py-1 px-2 rounded">
+                   <p class="hero-start-text text-xs whitespace-nowrap text-zinc-500 before:content-[''] before:block before:w-8 before:h-8 before:bg-hero-before before:mr-1 flex items-center"><span class="text-white mr-1">20%</span> DISCOUNT FOR <span class="text-white mx-1">1 MONTH</span> ACCOUNT</p>
+                 </div>
+                 <div class="mb-4 pr-7 md:pr-0">
+                   <h1 class="text-white text-4xl mb-4 font-semibold md:text-7xl lg:leading-title-lg">The Next <br> <span class="hero-title">Generation</span> <br> Payment Method.</h1>
+                   <div class="max-w-hero-text">
+                     <p class="text-white opacity-70 mb-3 md:text-lg md:leading-8">Our team of experts uses a methodology to identify the credit cards most likely to fit your needs. We examine annual percentage rates, annual fees.</p>
+                   </div>
+                   <a class="hero-link p-4 relative flex w-20 h-20 rounded-full border items-center md:absolute md:top-20 md:right-36" href="#">Get Started</a>
+                 </div>
+                </div>
+                <ul class="sm:flex md:relative">
+                  <li class="flex items-center mb-4 md:mb-0 md:mr-11">
+                    <strong class="text-white text-4xl font-semibold mr-4">3800+</strong>
+                    <p class="hero-end-info">User Active</p>
+                  </li>
+                  <li class="flex items-center mb-4 md:mb-0 md:mr-11">
+                    <strong class="text-white text-4xl font-semibold mr-4">230+</strong>
+                    <p class="hero-end-info">TRUSTED BY COMPANY</p>
+                  </li>
+                  <li class="flex items-center">
+                    <strong class="text-white text-4xl font-semibold mr-4">$230M+</strong>
+                    <p class="hero-end-info">TRANSACTION</p>
+                  </li>
+                </ul>
+              </div>
+         </div>
+     </section>
+
+     <!-- ===== FEATURES START ===== -->
+     <section class="mb-16">
+        <div class="container">
+            <div class="flex flex-col lg:flex-row lg:justify-between">
+              <div class="max-w-features-text mb-10 lg:max-w-features-item xl:max-w-features-text">
+                <h2 class="text-white font-semibold text-4xl mb-6 md:text-5xl md:leading-features-title xl:mr-18">You do the business, we’ll handle the money.</h2>
+                <p class="text-white opacity-70 mb-10 md:leading-8">With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
+                <a class="inline-block py-4 px-8 bg-btn-linear rounded-10 font-medium text-lg" href="#">Get Started</a>
+              </div>
+              <ul>
+                <li class="features-item-wrap flex flex-col mb-5 max-w-features-item px-5 pt-5 pb-4 rounded-20 before:mb-3 sm:flex-row sm:items-center sm:before:mb-0 sm:before:mr-5 ">
+                  <div class="features-item">
+                    <h3 class="text-white font-semibold mb-2 ">Rewards</h3>
+                    <p class="text-white opacity-70">The best credit cards offer some tantalizing combinations of promotions and prizes</p>
+                  </div>
+                </li>
+                <li class="features-item-wrap item-active flex flex-col mb-5 max-w-features-item px-5 pt-5 pb-4 rounded-20 before:mb-3 sm:flex-row sm:items-center sm:before:mb-0 sm:before:mr-5 ">
+                  <div class="features-item">
+                    <h3 class="text-white font-semibold mb-2 ">100% Secured</h3>
+                    <p class="text-white opacity-70">We take proactive steps make sure your information and transactions are secure.</p>
+                  </div>
+                </li>
+                <li class="features-item-wrap flex flex-col max-w-features-item px-5 pt-5 pb-4 rounded-20 before:mb-3 sm:flex-row sm:items-center sm:before:mb-0 sm:before:mr-5 ">
+                  <div class="features-item">
+                    <h3 class="text-white font-semibold mb-2 ">Balance Transfer</h3>
+                    <p class="text-white opacity-70">A balance transfer credit card can save you a lot of money in interest charges.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </div>
+     </section>
+
+     <!-- ===== CONTROL START ===== -->
+     <section class="mb-16 md:mb-40">
+        <div class="container">
+            <div>
+              <div class="flex flex-col mb-16 md:flex-row md:items-center">
+                <div class="mb-8 flex justify-center flex-shrink-0 md:w-96  lg:w-full lg:flex-shrink xl:mr-40">
+                  <img class="md:w-96 lg:w-full" src="./images/control.svg" alt="Control img">
+                </div>
+                <div class="max-w-control-text mx-auto">
+                  <h2 class="text-white text-4xl font-semibold mb-6 md:max-w-sitenav lg:text-5xl lg:max-w-features-text lg:leading-features-title">Easily control your billing & invoicing.</h2>
+                  <p class="text-white opacity-70 text-lg mb-12">Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.</p>
+                  <div class="flex items-center">
+                    <a class="inline-block mr-5 md:mr-8" href="#"><img src="./images/apple-logo.svg" alt="Aplle's logo"></a>
+                    <a class="inline-block" href="#"><img src="./images/google-play.svg" alt="Google play logo"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-col md:flex-row-reverse md:items-center">
+                <div class="mb-8 flex justify-center flex-shrink-0 md:w-96  lg:w-full lg:flex-shrink">
+                  <img class="md:w-96 lg:w-full" src="./images/analysis.svg" alt="Control img">
+                </div>
+                <div class="max-w-control-text-end lg:flex-shrink-0 mx-auto  xl:mr-40">
+                  <h2 class="text-white text-4xl font-semibold mb-6 tracking-normal md:max-w-sitenav lg:text-5xl lg:max-w-features-text lg:leading-features-title xl:max-w-control-text-end">Find a better card deal in few easy steps.</h2>
+                  <p class="text-white opacity-70 text-lg mb-12">Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.</p>
+                  <a class="inline-block py-4 px-8 bg-btn-linear rounded-10 font-medium text-lg" href="#">Get Started</a>
+                  
+                </div>
+              </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- ===== ABOUT START ===== -->   
+    <section>
+        <div class="max-w-[1300px] w-full mx-auto px-5">
+            <div class="max-w-[430px] w-full mx-auto  md:mx-0 md:max-w-none md:flex md:items-center md:justify-between md:mb-20">
+                <h2 class="text-white text-[36px] text-center font-semibold leading-[60px] mb-6 md:text-start md:mr-3 md:mb-0 md:w-[430px] lg:mr-0 lg:text-[48px] lg:leading-[82px] lg:w-[470px]">
+                    What people are saying about us
+                </h2>
+                <p class="text-subtitle font-normal text-[18px] leading-[24px] text-center mb-10 md:w-[450px] md:text-start md:mb-0 lg:w-[450px] lg:leading-[32px]">
+                    Everything you need to accept card payments and grow your business anywhere on the planet.
+                </p>
+            </div>
+            <ul class="md:mb-[100px] md:flex md:justify-between">
+                <li class="about__item max-w-[370px] w-full mx-auto rounded-[20px] pt-[60px] px-10 pb-[62px] transition md:mx-0 md:max-w-[240px] md:p-5 lg:max-w-[370px] lg:pt-[60px] lg:px-10 lg:pb-[62px] cursor-pointer">
+                    <img class="mb-10" src="images/quote.svg" alt="quote-svg">
+                    <p class="text-white text-lg mb-7 md:text-sm lg:text-lg lg:leading-[32px] ">
+                        Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.
+                    </p>
+                    <div class="flex md:flex-col md:items-start lg:flex-row">
+                        <img class="mr-4 md:mr-0 md:mb-6 lg:mb-0 lg:mr-4" src="images/jesen.png" alt="jesen-png">
+                        <div>
+                            <p class="text-white text-xl">
+                                Herman Jensen
+                            </p>
+                            <span class="text-white text-base opacity-50">Founder & Leader</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="about__item  max-w-[370px] w-full mx-auto rounded-[20px] pt-[60px] px-10 pb-[62px] transition md:mx-0 md:max-w-[240px] md:p-5 lg:max-w-[370px] lg:pt-[60px] lg:px-10 lg:pb-[62px] cursor-pointer">
+                    <img class="mb-10" src="images/quote.svg" alt="quote-svg">
+                    <p class="text-white text-lg mb-7 md:text-sm md:h-20 lg:text-lg lg:leading-[32px] lg:h-32">
+                        Money makes your life easier. If you're lucky to have it, you're lucky.
+                    </p>
+                    <div class="flex md:flex-col md:items-start lg:flex-row">
+                        <img class="mr-4 md:mr-0 md:mb-6 lg:mb-0 lg:mr-4" src="images/mark.png" alt="jesen-png">
+                        <div>
+                            <p class="text-white text-xl">
+                                Steve Mark
+                            </p>
+                            <span class="text-white text-base opacity-50">Founder & Leader</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="about__item  max-w-[370px] w-full mx-auto rounded-[20px] pt-[60px] px-10 pb-[62px] transition md:mx-0 md:max-w-[240px] md:p-5 lg:max-w-[370px] lg:pt-[60px] lg:px-10 lg:pb-[62px] cursor-pointer">
+                    <img class="mb-10" src="images/quote.svg" alt="quote-svg">
+                    <p class="text-white text-lg mb-7 md:text-sm lg:text-lg lg:leading-[32px] ">
+                        It is usually people in the money business, finance, and international trade that are really rich.
+                    </p>
+                    <div class="flex md:flex-col md:items-start lg:flex-row">
+                        <img class="mr-4 md:mr-0 md:mb-6 lg:mb-0 lg:mr-4" src="images/kenn.png" alt="jesen-png">
+                        <div>
+                            <p class="text-white text-xl">
+                                Kenn Gallagher
+                            </p>
+                            <span class="text-white text-base opacity-50">Founder & Leader</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="grid  justify-center mb-14 md:grid-cols-2 lg:grid-cols-4 lg:items-center lg:mb-[100px]">
+                <img class="mb-10 md:mx-auto lg:mb-0" src="images/airbnb.svg" alt="airbnb-svg">
+                <img class="mb-10 md:mx-auto lg:mb-0" src="images/binance.svg" alt="binance-svg">
+                <img class="mb-10 md:mb-0 md:mx-auto" src="images/coinbase.svg" alt="coinbase-svg">
+                <img class="md:mx-auto" src="images/dropbox.svg" alt="dropbox-svg">
+            </div>
+        </div>
+    </section>
+
+   <!-- ===== ARTICLE START ===== -->         
+    <article class="mb-14 md:mb-20">
+        <div class="max-w-[1300px] w-full mx-auto px-5">
+            <div class="article__block max-w-[1170px] w-full mx-auto rounded-[20px] py-14 md:flex md:justify-between md:items-center md:px-10 lg:py-[72px] xl:px-[97px]">
+                <div class="max-w-[380px] w-full mx-auto md:mx-0 md:max-w-[450px] lg:max-w-[670px]">
+                    <h2 class="text-white text-4xl font-semibold text-center mb-6 md:text-start lg:text-[48px] leading-[67px]">
+                        Let’s try our service now!
+                    </h2>
+                    <p class="text-subtitle text-lg text-center md:text-start md:w-[450px]">
+                        Everything you need to accept card payments and grow your business anywhere on the planet.
+                    </p>
+                </div>
+                <div class="flex justify-center flex-row pt-14 md:pt-0">
+                    <a class="bg-btn-linear max-w-[170px]  w-full  py-5 px-[33px] rounded-[10px] font-medium text-lg capitalize text-[#00040e] md:h-[68px]" href="#">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+  </main>
+        
+    <!-- ===== FOOTER START ===== -->
+    <footer class="pt-[72px] bg-footer ">
+        <div class="max-w-[1300px] w-full mx-auto px-5">
+            <div class="footer__wrapper md:flex md:justify-between mb-10">
+                <div class="max-w-[340px] w-full mx-auto mb-12 md:mx-0 md:max-w-[320px]">
+                    <img class="w-[266px] mx-auto  mb-6 md:mx-0 lg:mb-[30px]" src="images/logo.svg" alt="footer-logo">
+                    <p class="text-lg text-subtitle text-center md:text-start ">A new way to make the payments easy, reliable and secure.</p>
+                </div>
+                <div class="md:flex">
+                    <ul class="text-center md:text-start mb-10 md:mb-0 md:mr-5 lg:mr-[100px] xl:mr-[182px]">
+                        <li>
+                            <h3 class="text-white text-lg font-semibold mb-6">Usefull Links</h3>
+                        </li>
+                        <li>
+                            <a class="inline-block text-base text-subtitle mb-3" href="#">Content</a>
+                        </li>
+                        <li>
+                            <a class="inline-block text-base text-subtitle mb-3" href="#">How it Works</a>
+                        </li>
+                        <li>
+                            <a class="inline-block text-base text-subtitle mb-3" href="#">Create</a>
+                        </li>
+                        <li>
+                            <a class="inline-block text-base text-subtitle mb-3" href="#">Explore</a>
+                        </li>
+                        <li>
+                            <a class="inline-block text-base text-subtitle mb-3" href="#">Terms & Services</a>
+                        </li>
+                    </ul>
+                    <ul class="text-center md:text-start mb-10 md:mb-0 md:mr-5 lg:mr-[100px] xl:mr-[182px]">
+                        <li>
+                            <h3 class="text-white text-lg font-semibold mb-6">Community</h3>
+                        </li>
+                        <li>
+                            <a class="inline-block text-base text-subtitle mb-3" href="#">Help Center</a>
+                        </li>
+                        <li>
+                            <a class="inline-block text-base text-subtitle mb-3" href="#">Partners</a>
+                        </li>
+                        <li>
+                            <a class="inline-block text-base text-subtitle mb-3" href="#">Suggestions</a>
+                        </li>
+                        <li>
+                            <a class="inline-block text-base text-subtitle mb-3" href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class="inline-block text-base text-subtitle mb-3" href="#">Newsletters</a>
+                        </li>
+                    </ul>
+                    <ul class="text-center md:text-start">
+                        <li>
+                            <h3 class="text-white text-lg font-semibold mb-6">
+                                Partner
+                            </h3>
+                        </li>
+                        <li>
+                            <a class="inline-block text-base text-subtitle mb-3" href="#">Our Partner</a>
+                        </li>
+                        <li>
+                            <a class="inline-block text-base text-subtitle mb-3" href="#">Become a Partner</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="border-[1px] border-solid border-[#3f3e45] bg-[#3f3e45]"></div>
+            <div class="py-[30px] md:flex md:justify-between">
+                <p class="text-lg text-subtitle text-center mb-10 md:mb-0">
+                    Copyright 
+                    <img class="inline-block mx-4" src="images/copyright.svg" alt="footerc"> 
+                    2021 HooBank. All Rights Reserved.
+                </p>
+                <ul class="flex justify-center md:justify-start">
+                    <li>
+                        <img class="" src="images/instagram.svg" alt="instagram-svg">
+                    </li>
+                    <li>
+                        <img class="ml-20 md:ml-[30px]" src="images/facebook.svg" alt="facebook-svg">
+                    </li>
+                    <li>
+                        <img class="ml-20 md:ml-[30px]" src="images/twitter.svg" alt="twitter.svg">
+                    </li>
+                    <li>
+                        <img class="ml-20 md:ml-[30px]" src="images/linkedin.svg" alt="linkedin.svg">
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
+   <script src="js/main.js"></script>
 </body>
 </html>
